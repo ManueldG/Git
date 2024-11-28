@@ -1,0 +1,5 @@
+git commit-m"testo" 
+git checkout label 
+git rebase --interactive HEAD~5 
+git rebase --i HEAD 
+git branch -f pushed C2' 
