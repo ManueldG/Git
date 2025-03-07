@@ -3,15 +3,7 @@ git checkout label  | muovo HEAD in posizione del label
 git rebase -i HEAD~5 | copio i rami a partire dalla posizione selezionata "~n" indica quanti passi n tornare indietro dalla posizione HEAD 
 git branch -f pushed C2' | forzo (-f) lo spostamento del commit puntato da pushed in posizione C2
 git cherry-pick 
-git clone
 git add . | aggiunge tutti i file 
-git commit-m"testo" | commit con messaggio
-git checkout label  | muovo HEAD in posizione del label
 git checkout -b [yourbranchname] | crea e seleziona il branch (-b)
-
-git branch -f pushed C2' | forzo (-f) lo spostamento del commit puntato da pushed in posizione C2
-git cherry-pick 
 git clone
-git add . | aggiunge tutti i file 
-git rebase -i HEAD~5 | copio i rami a partire dalla posizione selezionata "~n" indica quanti passi n tornare indietro dalla posizione HEAD 
 git merge [yourbranchname] | collega il branch al HEAD
