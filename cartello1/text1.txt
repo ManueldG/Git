@@ -1,5 +1,4 @@
 testo 1 
-<<<<<<< HEAD
 
 git commit-m"testo" | commit con messaggio
 git checkout label  | muovo HEAD in posizione del label
@@ -12,6 +11,3 @@ git add . | aggiunge tutti i file
 git rebase -i HEAD~5 | copio i rami a partire dalla posizione selezionata "~n" indica quanti passi n tornare indietro dalla posizione
 git merge [yourbranchname] | collega il branch al HEAD
 ECHO attivo.
-=======
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
->>>>>>> 88936d1 (update)
