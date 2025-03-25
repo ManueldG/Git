@@ -16,6 +16,10 @@
 | git commit -a --amend --no-edit |`git commit -a --amend --no-edit`| usa il commit precedente e aggiunge le modifiche effettuate -a : aggiunge tutte le modifiche, --amend : usa il precedente commit, --no-edit : esegue il comando senza richiedere conferma della modifica del messaggio del commit |
 | | | |
 |git cherry-pick \<commit\> .. \<commit\> |`git cherry-pick abc1a677 abc1a677`| accoda i commit selezionati al branch corrente|
+||||
 | git merge \<branch\> |`git merge bugFix `| git merge collega il branch passato al branch corrente |
+||||
 | git reset <--soft/--hard/--mixed/--merge> <commit>|`git reset --hard abc1a677`| soft -> praticamente invariato sposta solo l'indice (HEAD)<br> mixed -> pulisce la staging area ovvero i file modificati aggiunti alla coda con git add per esempio<br>hard -> rimuove tutte le modifiche e torna allineato con HEAD<br>merge -> annulla un merge precedentemente effettuato
-| | | | |
+||||
+|git reflog |`git reflog`| registro delle operazioni effettuate |
+
