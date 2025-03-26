@@ -1,4 +1,5 @@
 [![Open Source Love](https://firstcontributions.github.io/open-source-badges/badges/open-source-v1/open-source.png)](https://github.com/firstcontributions/open-source-badges) 
+[![Open Source Helpers](https://www.codetriage.com/manueldg/git/badges/users.svg)](https://www.codetriage.com/manueldg/git)
  
 
 # Repository per esercitazione su GIT
