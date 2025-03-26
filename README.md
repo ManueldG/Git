@@ -1,3 +1,5 @@
+[![Open Source Love](https://firstcontributions.github.io/open-source-badges/badges/open-source-v1/open-source.png)](https://github.com/firstcontributions/open-source-badges) 
+ 
 
 # Repository per esercitazione su GIT
 
