@@ -16,7 +16,8 @@ per fare pratica si può aggiungere e modificare i file nella cartella [area di 
 
 ## Fai il fork di questa repository
 
-Clicca sul pulsante in alto ***fork*** creerà una repo nel tuo account.
+Clicca sul pulsante in alto ***fork*** oppure qui [fork](https://github.com/manueldg/git/fork) creerà una repo nel tuo account.
+
 
 ## Scarica la repository
 
