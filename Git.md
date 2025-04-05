@@ -22,4 +22,4 @@
 | git reset <--soft/--hard/--mixed/--merge> <commit>|`git reset --hard abc1a677`| soft -> praticamente invariato sposta solo l'indice (HEAD)<br> mixed -> pulisce la staging area ovvero i file modificati aggiunti alla coda con git add per esempio<br>hard -> rimuove tutte le modifiche e torna allineato con HEAD<br>merge -> annulla un merge precedentemente effettuato
 ||||
 |git reflog |`git reflog`| registro delle operazioni effettuate |
-
+|git reflog |`git reflog`| registro delle operazioni effettuate |
