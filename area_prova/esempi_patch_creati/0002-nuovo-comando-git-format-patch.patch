@@ -1,0 +1,23 @@
+From f891e10df3ca0e918ddaeb11719c92eb9a572064 Mon Sep 17 00:00:00 2001
+From: Manuel della Gala <74384683+ManueldG@users.noreply.github.com>
+Date: Mon, 14 Apr 2025 19:07:57 +0200
+Subject: [PATCH 2/2] nuovo comando git format-patch
+
+---
+ Git.md | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+diff --git a/Git.md b/Git.md
+index 4bca630..3d61bad 100644
+--- a/Git.md
++++ b/Git.md
+@@ -22,4 +22,5 @@
+ | git reset <--soft/--hard/--mixed/--merge> <commit>|`git reset --hard abc1a677`| soft -> praticamente invariato sposta solo l'indice (HEAD)<br> mixed -> pulisce la staging area ovvero i file modificati aggiunti alla coda con git add per esempio<br>hard -> rimuove tutte le modifiche e torna allineato con HEAD<br>merge -> annulla un merge precedentemente effettuato
+ ||||
+ |git reflog |`git reflog`| registro delle operazioni effettuate |
+-|git reflog |`git reflog`| registro delle operazioni effettuate |
++|git format-patch \<branch1\>..\<branch2\> |`git format-patch origin/master..bugfix`| crea dei patch tra branch1 e branch2 |
++
+-- 
+2.48.1.windows.1
+
