@@ -3,9 +3,11 @@
 |                |comando                        |descrizione                  |
 |----------------|-------------------------------|-----------------------------|
 |git clone       |`git clone https://github.com/ManueldG/Git.git`|clona la repository dell'URL passato           |
+||||
 |git add         |`git add .` |aggiunge tutti i file modificati            |
 | | | |
 |git checkout \<branch\>   |`git checkout bugFix`| seleziona il branch bugFix |
+||||
 |git checkout -b \<branch\>   |`git checkout -b bugFix`| crea e seleziona il branch bugFix |
 | | | |
 |git branch -f \<branch\> \<posizione\>  |`git branch bugFix f1418d`| sposta il branch in una posizione arbitraria che può essere indicata con l'hash tag o branch della posizione|
@@ -22,5 +24,7 @@
 | git reset <--soft/--hard/--mixed/--merge> <commit>|`git reset --hard abc1a677`| soft -> praticamente invariato sposta solo l'indice (HEAD)<br> mixed -> pulisce la staging area ovvero i file modificati aggiunti alla coda con git add per esempio<br>hard -> rimuove tutte le modifiche e torna allineato con HEAD<br>merge -> annulla un merge precedentemente effettuato
 ||||
 |git reflog |`git reflog`| registro delle operazioni effettuate |
+||||
 |git format-patch \<branch1\>..\<branch2\> |`git format-patch origin/master..bugfix`| crea dei patch tra branch1 e branch2 |
-
+||||
+|git log <option>|git log --oneline --decorate --graph --all|visualizza il log in formato albero
