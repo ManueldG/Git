@@ -30,9 +30,9 @@
 ||||
 |git log \<options\>|git log --oneline --decorate --graph --all | mostra il log delle modifiche in una struttura ad albero<br> --decorate: Mostra i nomi dei ref di tutti i commit visualizzati. in formato short<br> --all: Mostra i ref in refs/,insieme a HEAD,  elencati sulla riga di comando come \<commit\>.<br> --oneline: Questa è una forma abbreviata per --pretty=oneline --abbrev-commit usati insieme.<br> --graph: Disegna una rappresentazione grafica testuale della cronologia dei commit sul lato sinistro dell'output. Questo potrebbe causare la stampa di righe aggiuntive tra i commit, per consentire la corretta visualizzazione della cronologia del grafico.|
 ||||
-|git submodule set-url -- \<path> \<newurl> | `git submodule set-url -- https://github.com/ManueldG/errato.git https://github.com/ManueldG/Git.git`||
+|git submodule set-url -- \<path> \<newurl> | `git submodule set-url -- https://github.com/ManueldG/errato.git https://github.com/ManueldG/Git.git`| modifica il path della sotto repository definita |
 ||||
-|git submodule add \<path> \<folder>| `git submodule add  https://github.com/ManueldG/folder.git folder/` ||
+|git submodule add \<path> \<folder>| `git submodule add  https://github.com/ManueldG/folder.git folder/` | inserisce nella repo una sotto repository e lo collega al path definito |
 
 
 
