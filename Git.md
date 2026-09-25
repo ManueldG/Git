@@ -33,8 +33,10 @@
 |git submodule set-url -- \<path> \<newurl> | `git submodule set-url -- https://github.com/ManueldG/errato.git https://github.com/ManueldG/Git.git`| modifica il path della sotto repository definita |
 ||||
 |git submodule add \<path> \<folder>| `git submodule add  https://github.com/ManueldG/folder.git folder/` | inserisce nella repo una sotto repository e lo collega al path definito |
-
-
+t commit --fixup=reword:<commit>| `git commit --fixup=reword:aabb` | prepara la modifica del messaggio del commit aabb da correggere nell'editor |
+||||
+|git rebase --autosquash <commit>^ | `git rebase --autosquash aabb^`| applica la modifica effettuata con il comando precedente dal commit passato e sostituendo i messaggi che iniziano con squash  aabb è  il punto d'inserimento un commit sopra la correzione|
+||||
 
 
 
